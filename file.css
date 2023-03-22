@@ -1,0 +1,76 @@
+body{
+    background-image: url("background.jpg");
+    background-size: 100%;
+
+}
+#container{
+        background-color: rgba(0, 0, 0, 0.50); 
+        margin-left: auto;
+        margin-right: auto;
+        width: 900px;
+        border-radius: 30px;
+        padding: 50px;
+}
+.image{
+    width: 200px;
+    padding-top: 5%;
+    padding-left: 40%;
+}
+.logo{
+    color:rgb(40, 237, 0);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+ nav{
+    text-align: center;
+    background-color:rgb(40, 237, 0); 
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+main > div{
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        margin-left: 110px;
+}
+.scooter{
+        padding-top: 20px;
+        font-size: 20px;
+}
+.address{
+        font-size: 15px;
+}
+.address:before{
+        content: "\21A6";
+}
+.recharge{
+        font-size: 15px;
+}
+hr{
+    border-width: 12px;
+    border-radius: 6px;
+    margin-left: 110px;
+    border-style:solid;
+    margin-top: 1px;
+}
+.pink{
+    border-color:sandybrown;
+    margin-right: 60%;
+}
+.green{
+    border-color:rgb(35, 210, 0);
+    margin-right: 40%;  
+}
+.red{
+    border-color:rgb(197, 19, 55);
+    margin-right: 70%;   
+}
+.heart:after{
+        content: "\1F5A4";
+}
+footer{
+    position: absolute;
+    bottom: 0;
+}
